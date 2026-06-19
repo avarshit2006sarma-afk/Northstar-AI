@@ -7,7 +7,7 @@ export default function Progress() {
     <AppLayout>
 
       <h1 className="text-white text-6xl font-bold">
-        Progress
+        📈 Progress
       </h1>
 
       <p className="text-gray-400 text-xl mt-2">
@@ -67,6 +67,27 @@ export default function Progress() {
         </div>
 
       </div>
+      <div className="bg-[#121A36] rounded-3xl p-8 mt-8 border border-blue-500/30">
+
+  <h2 className="text-white text-4xl font-bold">
+    ⭐ Career XP
+  </h2>
+
+  <h1 className="text-blue-400 text-7xl font-bold mt-6">
+    2,480 XP
+  </h1>
+
+  <div className="w-full bg-[#0B1228] h-4 rounded-full mt-6">
+
+    <div className="bg-gradient-to-r from-blue-500 to-cyan-400 h-4 rounded-full w-3/4"></div>
+
+  </div>
+
+  <p className="text-gray-400 mt-4">
+    Level 8 • 520 XP remaining for Level 9
+  </p>
+
+</div>
 
       {/* Timeline */}
 
@@ -111,6 +132,25 @@ export default function Progress() {
           <h2 className="text-white text-4xl font-bold">
             🏆 Achievements
           </h2>
+          <div className="grid grid-cols-2 gap-4 mt-6">
+
+  <div className="bg-yellow-500/20 text-yellow-400 p-3 rounded-xl text-center">
+    🥇 Gold
+  </div>
+
+  <div className="bg-blue-500/20 text-blue-400 p-3 rounded-xl text-center">
+    💻 Coder
+  </div>
+
+  <div className="bg-green-500/20 text-green-400 p-3 rounded-xl text-center">
+    🚀 Builder
+  </div>
+
+  <div className="bg-purple-500/20 text-purple-400 p-3 rounded-xl text-center">
+    👑 Elite
+  </div>
+
+</div>
 
           <div className="space-y-4 mt-8">
 
@@ -187,6 +227,9 @@ export default function Progress() {
     <h2 className="text-white text-4xl font-bold">
       🤖 AI Prediction
     </h2>
+    <p className="text-cyan-400 mt-3">
+  Generated from your career growth trends.
+</p>
 
     <p className="text-gray-300 text-xl mt-8 leading-10">
 
@@ -222,6 +265,9 @@ export default function Progress() {
 🤖 Progress Summary
 
 </h2>
+<p className="text-blue-400 mt-3">
+  AI-generated summary of your last 90 days.
+</p>
 
 <p className="text-gray-300 text-xl mt-8 leading-10">
 

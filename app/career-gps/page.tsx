@@ -60,6 +60,14 @@ export default function CareerGPS() {
             <h3 className="text-green-400 text-5xl font-bold mt-2">
               72%
             </h3>
+            <div className="w-full bg-[#0B1228] rounded-full h-3 mt-5">
+
+  <div
+    className="bg-green-500 h-3 rounded-full"
+    style={{ width: "72%" }}
+  />
+
+</div>
 
           </div>
 
@@ -154,6 +162,20 @@ export default function CareerGPS() {
                   <p className="text-green-400 text-4xl font-bold">
                     {step.gain}
                   </p>
+                  <p className="text-gray-400 mt-3">
+  Progress
+</p>
+
+<div className="w-44 bg-[#0B1228] h-2 rounded-full mt-2">
+
+  <div
+    className="bg-blue-500 h-2 rounded-full"
+    style={{
+      width: `${(index + 1) * 25}%`,
+    }}
+  />
+
+</div>
 
                   <p className="text-gray-400 mt-2">
                     Estimated {step.time}
@@ -181,6 +203,25 @@ export default function CareerGPS() {
     Based on our hiring model, practical industry experience contributes
     more to your overall readiness than improving already strong areas.
     Focus on high-impact actions first to maximize your hiring potential.
+  </p>
+
+</div>
+<div className="mt-10 bg-gradient-to-r from-blue-600 to-purple-600 rounded-3xl p-10 text-center">
+
+  <p className="text-white text-xl">
+    🏁 Final Destination
+  </p>
+
+  <h2 className="text-white text-6xl font-bold mt-4">
+    Microsoft SDE
+  </h2>
+
+  <p className="text-white/80 text-xl mt-6">
+    Complete all roadmap steps and maximize your hiring probability.
+  </p>
+
+  <p className="text-yellow-300 text-5xl font-bold mt-8">
+    94% Ready
   </p>
 
 </div>

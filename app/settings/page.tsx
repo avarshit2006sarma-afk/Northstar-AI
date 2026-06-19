@@ -134,6 +134,21 @@ export default function Settings() {
 </div>
 
 </div>
+<div className="bg-[#121A36] rounded-3xl p-8 mt-8 border border-cyan-500/30">
+
+  <h2 className="text-white text-4xl font-bold">
+    🎖 Membership
+  </h2>
+
+  <h1 className="text-cyan-400 text-6xl font-bold mt-6">
+    PRO
+  </h1>
+
+  <p className="text-gray-400 mt-4 text-xl">
+    Resume AI • Recruiter AI • Career GPS • Unlimited Analysis
+  </p>
+
+</div>
 {/* Quick Actions */}
 
 <div className="grid grid-cols-4 gap-4 mt-8">
@@ -222,6 +237,9 @@ Last Analysis Today
         <h2 className="text-white text-4xl font-bold">
           🤖 About Northstar
         </h2>
+        <p className="text-blue-400 mt-3">
+  Version 2.1 • AI Career Intelligence Platform
+</p>
 
         <p className="text-gray-300 text-xl leading-10 mt-6">
 
@@ -233,6 +251,13 @@ Last Analysis Today
         </p>
 
       </div>
+      <div className="mt-8 text-center">
+
+  <p className="text-gray-500">
+    Built with ❤️ by A. Varshit Sarma
+  </p>
+
+</div>
 
     </AppLayout>
   );

@@ -205,6 +205,9 @@ export default function OpportunityRadar() {
         <h2 className="text-white text-4xl font-bold">
           🤖 AI Market Insight
         </h2>
+        <p className="text-cyan-400 mt-3">
+  Updated using hiring trend predictions.
+</p>
 
         <p className="text-gray-300 text-2xl mt-8 leading-relaxed">
           Current hiring trends suggest that internship experience and
@@ -214,6 +217,37 @@ export default function OpportunityRadar() {
         </p>
 
       </div>
+      <div className="mt-10 bg-[#121A36] rounded-3xl p-8 border border-green-500/30">
+
+  <h2 className="text-white text-4xl font-bold">
+    📅 Hiring Calendar
+  </h2>
+
+  <div className="grid grid-cols-4 gap-6 mt-8">
+
+    <div className="bg-[#0B1228] p-5 rounded-2xl text-center">
+      <p className="text-gray-400">June</p>
+      <h2 className="text-green-400 text-3xl font-bold mt-2">Low</h2>
+    </div>
+
+    <div className="bg-[#0B1228] p-5 rounded-2xl text-center">
+      <p className="text-gray-400">July</p>
+      <h2 className="text-yellow-400 text-3xl font-bold mt-2">Medium</h2>
+    </div>
+
+    <div className="bg-[#0B1228] p-5 rounded-2xl text-center">
+      <p className="text-gray-400">August</p>
+      <h2 className="text-green-400 text-3xl font-bold mt-2">High</h2>
+    </div>
+
+    <div className="bg-[#0B1228] p-5 rounded-2xl text-center">
+      <p className="text-gray-400">September</p>
+      <h2 className="text-red-400 text-3xl font-bold mt-2">Peak</h2>
+    </div>
+
+  </div>
+
+</div>
 
       {/* Bottom Stats */}
 

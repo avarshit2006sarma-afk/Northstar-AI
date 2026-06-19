@@ -55,6 +55,37 @@ export default function RecruiterPage() {
           </div>
 
         </div>
+        <div className="mt-8 bg-[#121A36] rounded-3xl p-8 border border-green-500/30">
+
+  <h2 className="text-white text-4xl font-bold">
+    🎯 Recruiter Scorecard
+  </h2>
+
+  <div className="grid grid-cols-4 gap-6 mt-8">
+
+    <div>
+      <p className="text-gray-400">Resume</p>
+      <h2 className="text-green-400 text-4xl font-bold mt-2">82</h2>
+    </div>
+
+    <div>
+      <p className="text-gray-400">Projects</p>
+      <h2 className="text-blue-400 text-4xl font-bold mt-2">88</h2>
+    </div>
+
+    <div>
+      <p className="text-gray-400">DSA</p>
+      <h2 className="text-yellow-400 text-4xl font-bold mt-2">71</h2>
+    </div>
+
+    <div>
+      <p className="text-gray-400">Culture Fit</p>
+      <h2 className="text-purple-400 text-4xl font-bold mt-2">91</h2>
+    </div>
+
+  </div>
+
+</div>
 
         {/* AI Feedback */}
 
@@ -63,6 +94,9 @@ export default function RecruiterPage() {
           <h2 className="text-white text-4xl font-bold">
             🤖 AI Recruiter Feedback
           </h2>
+          <p className="text-cyan-400 mt-3">
+  Generated from your profile using our recruiter simulation engine.
+</p>
 
           <p className="text-gray-400 mt-3 text-lg">
             Based on your profile and current hiring trends, here is what a recruiter would think.
@@ -101,6 +135,9 @@ export default function RecruiterPage() {
               <div className="bg-[#0E1530] rounded-xl p-4 text-white text-xl">
                 Active Project Portfolio
               </div>
+              <div className="bg-[#0E1530] rounded-xl p-4 text-white text-xl">
+  Strong Learning Consistency
+</div>
 
             </div>
 
@@ -125,6 +162,9 @@ export default function RecruiterPage() {
               <div className="bg-[#0E1530] rounded-xl p-4 text-white text-xl">
                 Leadership Exposure is Limited
               </div>
+              <div className="bg-[#0E1530] rounded-xl p-4 text-white text-xl">
+  Backend Development Experience Missing
+</div>
 
             </div>
 
@@ -133,6 +173,21 @@ export default function RecruiterPage() {
         </div>
 
         {/* Hiring Probability */}
+        <div className="mt-8 bg-[#121A36] rounded-3xl p-8 border border-yellow-500/30">
+
+  <h2 className="text-white text-4xl font-bold">
+    💡 Recruiter's Recommendation
+  </h2>
+
+  <p className="text-gray-300 text-2xl mt-8 leading-10">
+
+    If this candidate completes one software internship and strengthens
+    backend development skills, they would become highly competitive
+    for Microsoft internship and new graduate hiring pipelines.
+
+  </p>
+
+</div>
 
         <div className="mt-8 bg-[#121A36] rounded-3xl p-8">
 
@@ -145,7 +200,7 @@ export default function RecruiterPage() {
             <div className="w-full h-5 bg-[#0E1530] rounded-full overflow-hidden">
 
               <div
-                className="h-full bg-blue-500 rounded-full"
+  className="h-full bg-gradient-to-r from-red-500 via-yellow-400 to-green-500 rounded-full transition-all duration-700"
                 style={{ width: `${recruiter.chance}%` }}
               />
 
