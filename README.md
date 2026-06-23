@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Northstar AI
 
-## Getting Started
+AI Career Intelligence Platform built to help students maximize their hiring readiness through explainable AI, recruiter simulations, personalized career roadmaps, opportunity tracking, and intelligent coaching.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Career Identity
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Discover your strongest engineering persona:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+* Builder
+* Researcher
+* Leader
+* Innovator
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Recruiter Simulator
 
-## Learn More
+View your profile from a recruiter’s perspective and receive AI-generated hiring feedback.
 
-To learn more about Next.js, take a look at the following resources:
+### Career GPS
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Personalized roadmap showing the highest-impact actions to improve hiring readiness.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Opportunity Radar
 
-## Deploy on Vercel
+Track upcoming internship and hiring opportunities with readiness analysis.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### AI Coach
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Receive daily missions, career advice, mock interview questions, and personalized recommendations.
+
+### Progress Tracking
+
+Monitor readiness growth, milestones, achievements, and consistency.
+
+## Tech Stack
+
+* Next.js 15
+* TypeScript
+* React
+* Tailwind CSS
+* Shadcn UI
+* Explainable AI Scoring Engine
+
+## Project Vision
+
+Northstar aims to become an AI-powered career operating system for students by combining:
+
+* Career Analytics
+* Resume Intelligence
+* Recruiter Simulations
+* Opportunity Tracking
+* Personalized Coaching
+
+## Future Roadmap
+
+### Phase 2
+
+* Resume Upload
+* User Authentication
+* Profile Persistence
+* Dynamic Data Storage
+
+### Phase 3
+
+* AI Resume Analysis
+* GitHub Analysis
+* LinkedIn Integration
+* Live Recruiter Chat
+* Advanced Career Predictions
+
+## Author
+
+A. Varshit Sarma
+
+VIT-AP University
+B.Tech Electronics and Communication Engineering
