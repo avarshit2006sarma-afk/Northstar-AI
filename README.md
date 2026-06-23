@@ -1,19 +1,3 @@
-## Dashboard
-
-![Dashboard](public/screenshots/Screenshot%202026-06-23%20at%2010.43.47%20AM.png)
-
-## Career Identity
-
-![Career Identity](public/screenshots/Screenshot%202026-06-23%20at%2010.44.56%20AM.png)
-
-## Recruiter Simulator
-
-![Recruiter Simulator](public/screenshots/Screenshot%202026-06-23%20at%2010.45.30%20AM.png)
-
-## Career GPS
-
-![Career GPS](public/screenshots/Screenshot%202026-06-23%20at%2010.46.07%20AM.png)
-
 # Northstar AI
 
 AI Career Intelligence Platform built to help students maximize their hiring readiness through explainable AI, recruiter simulations, personalized career roadmaps, opportunity tracking, and intelligent coaching.
